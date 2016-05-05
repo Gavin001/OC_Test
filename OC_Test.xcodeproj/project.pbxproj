@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7F1B111CDAE0A700A33123 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F1B101CDAE0A700A33123 /* TestViewController.m */; };
 		EE888D291CD4B9F900B2517E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE888D281CD4B9F900B2517E /* main.m */; };
 		EE888D2C1CD4B9F900B2517E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE888D2B1CD4B9F900B2517E /* AppDelegate.m */; };
 		EE888D2F1CD4B9F900B2517E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE888D2E1CD4B9F900B2517E /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE7F1B0F1CDAE0A700A33123 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EE7F1B101CDAE0A700A33123 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		EE888D241CD4B9F900B2517E /* OC_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE888D281CD4B9F900B2517E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE888D2A1CD4B9F900B2517E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				EE888D2B1CD4B9F900B2517E /* AppDelegate.m */,
 				EE888D2D1CD4B9F900B2517E /* ViewController.h */,
 				EE888D2E1CD4B9F900B2517E /* ViewController.m */,
+				EE7F1B0F1CDAE0A700A33123 /* TestViewController.h */,
+				EE7F1B101CDAE0A700A33123 /* TestViewController.m */,
 				EE888D301CD4B9F900B2517E /* Main.storyboard */,
 				EE888D331CD4B9F900B2517E /* Assets.xcassets */,
 				EE888D351CD4B9F900B2517E /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				EE888D2F1CD4B9F900B2517E /* ViewController.m in Sources */,
 				EE888D2C1CD4B9F900B2517E /* AppDelegate.m in Sources */,
+				EE7F1B111CDAE0A700A33123 /* TestViewController.m in Sources */,
 				EE888D291CD4B9F900B2517E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				EE888D531CD4B9FA00B2517E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE888D541CD4B9FA00B2517E /* Build configuration list for PBXNativeTarget "OC_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				EE888D561CD4B9FA00B2517E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE888D571CD4B9FA00B2517E /* Build configuration list for PBXNativeTarget "OC_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				EE888D591CD4B9FA00B2517E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
